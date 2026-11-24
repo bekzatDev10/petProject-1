@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+.car-card h2{
+    color: #222;
+}
 .car-card {
     width: 100%;
     max-width: 680px;

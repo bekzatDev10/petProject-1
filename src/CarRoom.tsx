@@ -13,7 +13,7 @@ const CarCard = (props: Props) => {
            />
            <h2>{props.car.brand} {props.car.model}</h2>
            <p>Год: {props.car.year}</p>
-           <p>Цена: {props.car.price}</p>
+           <p>Цена: {props.car.price}$</p>
        </div>
     );
 };
