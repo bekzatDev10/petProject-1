@@ -12,13 +12,13 @@ import camry80Photo from './assets/cars/toyota-camry-80.jpg';
 
 
 
-const bmw = new Car('BMW', 'M5 F90', 70000, 2018, bmwPhoto);
-const tesla = new Car("TESLA","MODEL 3",40000,2022,teslaPhoto)
-const camry70 = new Car("TOYOTA","CAMRY 70",12000,2019,camry70Photo)
-const mercedes = new Car("MERCEDES","220",30000,2022,mercedesPhoto)
-const changan = new Car("CHANGAN","X5-PLUS",30000,2026,changanPhoto)
-const lexus = new Car("LEXUS","220",30000,2021,lexusPhoto)
-const camry80 = new Car("TOYOTA","CAMRY 80",12000,2019,camry80Photo)
+const bmw = new Car('BMW', 'M5 F90', 70000, 2018, bmwPhoto, 'Спортивный седан BMW');
+const tesla = new Car("TESLA","MODEL 3",40000,2022,teslaPhoto, 'Спортивный седан BMW')
+const camry70 = new Car("TOYOTA","CAMRY 70",12000,2019,camry70Photo, 'Спортивный седан BMW')
+const mercedes = new Car("MERCEDES","220",30000,2022,mercedesPhoto, 'Спортивный седан BMW')
+const changan = new Car("CHANGAN","X5-PLUS",30000,2026,changanPhoto, 'Спортивный седан BMW')
+const lexus = new Car("LEXUS","220",30000,2021,lexusPhoto, 'Спортивный седан BMW')
+const camry80 = new Car("TOYOTA","CAMRY 80",12000,2019,camry80Photo, 'Спортивный седан BMW')
 
 const cars = [bmw, tesla,camry70,mercedes,changan,lexus,camry80];
 
